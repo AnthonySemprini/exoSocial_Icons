@@ -10,11 +10,8 @@
    
    display: flex;
    justify-content: center;
-   
-   }
-
-
-
+   gap : 20px;
+}
 main {
     height: 100%;
     width: 100%;
@@ -22,90 +19,154 @@ main {
     justify-content: center;
     align-items: center;
     align-content: center;
-   
-    
-
-
 }
-
-.socialBox {
+.socialBox  {
     height: 100px;
     width: 100px;
     border-radius: 10px;
+    position: relative;
+
+}
+.fa-brands{
     transition: 0.5s;
-    margin: 10px;
-    display: flex;
+    display: flex !important;
     justify-content: center;
+    text-align: center;
     align-items: center;
     filter: grayscale(1);
     transition: 0.5s;
     box-shadow: 0px 35px 36px -23px rgba(0,0,0,0.43);
-    position: relative;
-
-    z-index: 2;
 }
 
-.socialBox p {
-    
-    z-index: 1;
+p .textfacebook{
+   position: absolute;
+    z-index: 3;
 }
 
 .socialBox:hover p {
     display: inline-block;
     position: absolute;
-    transform : translateY(-80px);
+    transform : translateY(-120px);
     transition: transform 1s ease-in-out;
-    color: RGB(1, 101, 225);
     font-size: 20px;
-
+position: absolute;
 }
-i {
+i{
     color:white;
     font-size: 40px;
-    
-
-    }
-.logotxt {
-    
-    
 }
-
-#facebook{
-    background-color: RGB(1, 101, 225);
-    
-}
-.socialBox #facebook{
-    display: flex;
-    align-content:flex-end;
-}
-
-.socialBox:hover{
+.fa-brands:hover{
     border-radius: 50px;
     transition: 0.5s;
     filter: grayscale(0);
     transition: 0.5s;
 }
 
+
+
+.fa-facebook-f{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    background-color: RGB(1, 101, 225); 
+}
+
+.text-facebook{
+    bottom: 10px;
+    position: absolute;
+    z-index: -10;
+    margin : auto;
+    width: 100%;
+    text-align: center;
+}
+#facebook{
+    /* background-color:RGB(1, 101, 225) ; */
+     color: RGB(1, 101, 225); 
+    
+}
+
+.fa-twitter{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    background-color: RGB(29, 155, 240); 
+}
+
+.text-twitter{
+    bottom: 10px;
+    position: absolute;
+    z-index: -10;
+    margin : auto;
+    width: 100%;
+    text-align: center;
+}
+
 #twitter{
-     background-color: RGB(29, 155, 240);
+     /* background-color: RGB(29, 155, 240); */
+     color: RGB(29, 155, 240);
+}
+.fa-instagram{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    background-color: RGB(193, 53, 132); 
+}
 
- }
-
-
+.text-instagram{
+    bottom: 10px;
+    position: absolute;
+    z-index: -10;
+    margin : auto;
+    width: 100%;
+    text-align: center;
+}
 
 #instagram{ 
-    background-color: RGB(193, 53, 132);
+    /* background-color: RGB(193, 53, 132); */
+    color: RGB(193, 53, 132);
+}
+.fa-whatsapp{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    background-color: RGB(40, 209, 70); 
+}
 
-
- }
-
+.text-whatsapp{
+    bottom: 10px;
+    position: absolute;
+    z-index: -10;
+    margin : auto;
+    width: 100%;
+    text-align: center;
+}
 #whatsapp{
-    background-color: RGB(40, 209, 70);
+    
+    color: RGB(40, 209, 70);
+}
+.fa-youtube{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    background-color: RGB(255, 0, 0); 
+}
 
- }
+.text-youtube{
+    bottom: 10px;
+    position: absolute;
+    z-index: -10;
+    margin : auto;
+    width: 100%;
+    text-align: center;
+}
 
 #youtube{
-     background-color: RGB(255, 0, 0);
-
- }
+     /* background-color: RGB(255, 0, 0); */
+     color: RGB(255, 0, 0);
+}
 
