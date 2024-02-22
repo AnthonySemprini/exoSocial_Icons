@@ -17,7 +17,7 @@ Le projet "Social Icons" est une collection dynamique et interactive d'icônes d
 ## 👓 Comment Visualiser le Projet
 Pour visualiser le projet, clonez ou téléchargez le repository sur votre machine locale. Ouvrez le fichier `index.html` dans votre navigateur web pour voir les icônes de réseaux sociaux en action.
 
-### 🤝 Contribution
+## 🤝 Contribution
 
 Toute contribution est la bienvenue ! Si vous souhaitez contribuer, n'hésitez pas à soumettre une pull request.
 
